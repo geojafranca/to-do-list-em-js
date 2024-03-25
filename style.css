@@ -1,16 +1,29 @@
 *{
     padding: 0;
     margin: 0;
-    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif   ;
+    
 }
 
-header {
-    font-size: 30px;
+header nav {
     text-align: center;
-    color: #23232e;
+    justify-content: space-around;
+    background-color: #23232e;
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
 }
-body {
-    background-color: bisque;
+
+.alinhamento {
+    margin-top: 0.7rem;
+}
+
+.logo { 
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
 }
 
 .container {
@@ -27,11 +40,35 @@ body {
 
 }
 
-.cad {
-    align-items: center;
-    align-items: center;
-    align-content: center;
+.container h2 {
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
+
+.container button {
+    cursor: pointer;
+    border: 1px solid #ffff;
+    background-color: #23232e;
+    border-radius: 7px;
+    padding: 7px; 
+}
+
+/* .container button :hover {
+    border: 1px solid #ffff;
+    background-color: #ffff;
+    color: #ffff;
+    transition: ease 0.3s;
+    border-radius: 7px;
+
+} */
+
+.container p {
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+
 
 input {
     color: #23232e;
@@ -40,13 +77,6 @@ input {
     border: none;
     border-radius: 7px;
     outline:none;
-}
-
-.cad button {
-    color: #23232e;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 7px;
 }
 
 
